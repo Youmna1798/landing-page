@@ -1,0 +1,743 @@
+/*reset*/
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+       display: block;
+   } 
+   html{
+       scroll-behavior: smooth;
+   }
+
+*{
+       
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    margin: 0% ;
+       
+}
+    
+body{
+    box-sizing: border-box;
+}
+    
+    .clear{
+        clear:  both;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    
+    /* start nav bar*/ 
+ .nav{
+        background-color: #2c3e50;
+        width: 100vw;
+        margin: 0;
+        height: 15vh;
+        padding: 1% 1%;
+        position: fixed;
+        z-index: 99;
+}
+.nav-scroll{
+    height: 10vh;
+    padding: 0.08% 0.08%; 
+    
+}
+
+/*nav iti student*/
+.nav .address{
+    color: #ecf0f1;
+    float: left;
+    width: 35%;
+    margin-top: 1.1%;
+    margin-left: 16%;
+}
+/*items nav*/
+.nav .menu{
+    float: right;
+    list-style-type: none;
+    width: 40%;
+    height: 10vh;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 1% 2%;
+    
+}
+/*the word from nav bar*/
+.nav .menu .items{
+    text-align: center;
+    float: left;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 1.2vw;
+    margin-top: 1.3%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    
+}
+/*link (the word from items)*/
+.nav .menu .items a{
+    padding:  6%  ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+/*box of active for each item*/
+.nav .menu .items a:hover{
+   
+    box-sizing: border-box;
+    border-radius: 6%;
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+    width: 8vw;
+    height: 6vh;
+    padding-bottom: 3%;
+    float: left;
+    color: #ffff;
+    font-size: 1.2vw;
+}
+/*background*/
+.middle{
+    height: 96vh;
+    width: 100%;
+    background-color: #1abc9c;
+   position: relative;
+    margin-top: 0%;
+   
+}
+/*avatar img*/
+.iti-img{
+    float: left;
+    height: 9vh;
+    width: 11vw;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text{
+    text-align: center;
+    width: 100%;
+    color: white;
+    
+}
+/*iti student in the middle*/
+.text .students{
+    float: left;
+    font-size: 4vw;
+    position: absolute;
+    top: 36%;
+    left: 42%;
+    transform: translate(-50% , -50%);
+    margin: 11% 10%;
+    margin-left: 8%;
+    margin-right: 7%;
+    
+}
+/*first line under iti student*/
+.text hr.line{
+    color: #ecf0f1;
+    font-size: 1vw;
+    width: 5%;
+    height: 0.5vh;
+    border-style: solid;
+    background-color: #ecf0f1;
+    position: absolute;
+    top: 68%;
+    margin: 0% 2%;
+    left: 43%;
+    transform: translate(-50% , -50%);
+}
+/*star under iti student*/
+.star{
+    color: #ecf0f1;
+    font-size: 1vw;
+    height: 3.4vh;
+    width: 1.7vw;
+    margin: 0% 4.5%;
+    position: absolute;
+    top: 66.5%;
+    left: 44%;
+    filter: invert();
+    background-color: unset;
+}
+/*second line under iti student*/
+hr.linetwo{
+    color:#ecf0f1;
+    border-style: solid;
+    background-color: #ecf0f1;
+    font-size: 1vw;
+    width: 5%;
+    height: 0.5vh;
+    position: absolute;
+    top: 68%;
+    margin: 0% 2%;
+    left: 52%;
+    transform: translate(-50% , -50%);
+}
+/*small head "fronted technology project "*/
+.project{
+    color: #ecf0f1;
+    font-size: 1vw;
+    float: left;
+    height: 5vh;
+    width: 30%;
+    position: absolute;
+    top: 64%;
+    left: 54%;
+    transform: translate(-50% , -50%);
+    margin: 4% 4%;
+    
+}
+.container4{
+    height: 113vh;
+}
+/*background of portfolio*/
+.folio{
+    width: 100vw;
+    margin: 0;
+    height: 110vh;
+    padding: 2% 1%;
+}
+/*portfolio section*/
+.folio .portfolio{
+   color: #2c3e50;
+    height: 100%;
+    font-size: x-large;
+}
+
+/*portfolio word*/
+.folio .portfolio .pic{
+    text-align: center;
+    margin-top: 5%;
+}
+/*line1 under portfolio*/
+.folio .portfolio .port{
+    border-top: 2px solid #2c3e50;
+    background-color:#2c3e50 ;
+    float: left;
+    width: 4.5%;
+    height: 0.5vh;
+    margin: 2% 43.5%;
+    margin-right: 0%;
+}
+/*star under portfolio*/
+.folio .portfolio .starr{
+    color: #2c3e50;
+    float: left;
+    margin: 1.1% 1%;
+    filter: invert(#2c3e50);
+}
+/*line2 under portfolio*/
+.folio .portfolio .porto{
+    border-top: 2px solid #2c3e50;
+    background-color:#2c3e50 ;
+   float: left;
+   margin: 2% ;
+   margin-right: 2%;
+   margin-left: 0%;
+    width: 4.5%;
+    height: 0.5vh;
+    
+}
+/*background images under potfolio*/
+.folio .portfolio .images{
+    float: right;
+    width: 100%;
+    height: 80vh;
+    margin: 0% 0%;
+  padding-left: 12%;
+  
+}
+/*images under portfolio*/
+.folio .portfolio .images .cabin{
+    float: left;
+    width: 27%;
+    height: 35vh;
+    margin: 1% 0.6%;
+    padding: 0.5%;
+}
+.container2{
+    height: 73vh;
+    margin-top: 0%;
+    padding-top: 3%;
+}
+/*background of about section*/
+.about{
+    float: left;
+    width: 100%;
+    height: 67vh;
+    background-color: #1abc9c;
+    text-align: center;
+    margin: 0% 0%;
+padding-top: 4%;
+}
+
+/*the head of section*/
+.about .allabout{
+    float: left;
+    color: #ecf0f1; 
+    width: 60vw;
+    height: 3vh;
+    margin: 2.5% 19%;
+    font-size: 1.8vw;
+}
+/*line & star under about*/
+.about .linestar{
+    margin: 4% 20%;
+}
+
+/*line1 under about*/
+.about .linestar .lineAbout{
+    color: #ecf0f1;
+    border-style: solid;
+    background-color: #ecf0f1;
+    float: left;
+    font-size: 1vh;
+    width: 7%;
+    margin: 1% 1%;
+    margin-right: 0%;
+    margin-left: 39%;
+}
+/*star under about*/
+.about .linestar .starabout{
+    float: left;
+    color: #ecf0f1;
+    font-size: 1vw;
+    height: 3.4vh;
+    width: 1.7vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    filter: invert();
+}
+/*line2 under about*/
+.about .linestar .linethree{
+    color: #ecf0f1;
+    border-style: solid;
+    background-color: #ecf0f1;
+    float: left;
+    font-size: 1vw;
+    width: 7%;
+    margin: 1% 0.2%;
+    margin-right: 0%; 
+}
+
+/*text in about section*/
+.paragraph{
+    box-sizing: border-box;
+    margin: 8% 0%;
+    height: 20vh;
+    width: 80vw;
+}
+
+/*paragraph1 in about section*/
+.about .paragraph .para{
+    color: #ecf0f1;
+    float: left;
+    width: 22vw;
+    height: 4vh;
+    padding: 1%;
+    margin: 2% 35%;
+    text-align: left;
+    font-size: 1vw;
+    margin-right: 0%;
+    
+   
+}
+
+/*paragraph2 in about section*/
+.about .paragraph .parag{
+    color: #ecf0f1;
+    float: left;
+    width: 21vw;
+    height: 4vh;
+    padding: 1%;
+   margin: 2% 0% ;
+   
+    text-align: left;
+    font-size: 1vw;
+    
+}
+.container3{
+    height: 100vh;
+    padding-top: 3%;
+
+}
+/*background of contact section*/
+.backcont{
+    width: 100;
+    height: 80vh;
+    width: 100%;
+    margin-top: 4%;
+    background-color: #ffff;
+    text-align: center;
+}
+
+
+.backcont .contact{
+    color: #2c3e50;
+    float: left;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    margin: 0% 0%;
+    font-size: 1.5vw;
+    
+}
+/*head of section*/
+.backcont .linecont{
+    color: #2c3e50;
+    float: left;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: 0% 0%;
+    font-size: 1.5vw;
+    
+}
+/*line1 for contact*/
+.backcont .contact .linecontact{
+    color: #2c3e50;
+    float: left;
+    width: 5%;
+    height: 10vh;
+    text-align: center;
+    margin: 0% 0%;
+    font-size: 1.6vw;
+    margin: 0.5% 43%;
+    margin-right: 0%;
+    padding-right: 3%;
+    
+    
+}
+/*star under contact*/
+.backcont .contact .fa-star{
+    color: #2c3e50;
+    float: left;
+    height: 10vh;
+    text-align: center;
+    margin: 0.5% 0.6%;
+    font-size: 2vw;
+    
+}
+/*line2 under contact*/
+.backcont .contact .linefour{
+    color: #2c3e50;
+    float: left;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    margin: 0.5% 0%;
+    font-size: 1.6vw;
+    margin-right: 8%;
+    padding-right: 5%;
+}
+
+/*start of form*/
+.backcont .content{
+    max-width: 50%;
+    margin: auto;
+    background: transparent;
+    border: transparent;
+    padding: 14.063218vh 6.4453125vw 12.5vh;
+    height: 100%;
+}
+/*label name for each*/
+.backcont .content .form{
+    position: relative;
+    display: block;
+    margin-bottom: 6.36604774535809vh;
+}
+/*input of form*/
+.backcont .content .form .formcont{
+    border: none;
+    border-bottom: 2px solid #7f8c8d;
+    display: block;
+    width: 100%;
+    height: 6vh;
+    font-size: 0.9765625vw;
+    
+}
+/*make border unseen except border bottom*/
+.message:focus,
+.formcont:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+/*input for message*/
+.backcont .content .form .message{
+    border: none;
+    border-bottom: 2px solid #7f8c8d;
+    display: block;
+    width: 100%;
+    height: 12vh;
+    font-size: 0.9765625vw;
+}
+/*focus :style input field  - valid: Select and style only if the value of the <input> element is valid:*/
+.form :focus ~ span,
+.form :valid ~ span
+{
+  top: -12px;
+  left: 47%;
+  color: #bdc3c7;
+  font-size: 2vh;
+}
+/*headname of inputs*/
+.form span{
+    
+        float: left;
+        font-size: 1.5vw;
+        color: #7f8c8d;
+        position: absolute;
+        width: 100%;
+        top: 1.5804597701149425vh;
+        transform: translate(-50% , -50%);
+        text-align: left;
+}
+
+/*border bottom*/
+.form span.border {
+    border: none;
+    color: #bdc3c7;
+    height: 2px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 41px;
+}
+
+/*send button*/
+.in{
+    box-sizing: border-box;
+    border-radius: 6%;
+    border-color: turquoise;
+    background-color: #1abc9c;
+    width: 6vw;
+    height: 8vh;
+    float: left;
+    color: white;
+    font-size: 1.2vw;
+}
+/*When leaving an empty entry, the transmission button is disabled*/
+.in:disabled{
+    background-color: #6bd3be;
+    border-color:#6bd3be ;
+}
+/*When all entries are filled, the transmission button is enabled*/
+.in:enabled{
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+
+}
+/*footer & copy rights*/
+.contanier1{
+    height: 50%;
+}
+/*background footer*/
+.backfoot{
+    height: 30vh;
+}
+/*footer*/
+.backfoot .foot{
+    width: 100vw;
+    margin-top: 2%;
+    height: 30vh;
+    background-color: #2c3e50;
+    font-size: 1vw;
+}
+
+
+/*location and paragraph of location*/
+.backfoot .foot .first{
+    color: #ecf0f1;
+    float: left;
+    height: 12vh;
+    width: 11vw;
+    margin: 0% 2%;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 2vh;
+}
+/*paragraph of location*/
+.backfoot .foot .first .footend{
+    margin-top: 8%;
+}
+/*around the web and icons*/
+.backfoot .foot .second{
+    color: #ecf0f1;
+    float: left;
+    height: 15vh;
+    width: 11vw;
+    margin: 0% 2%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 2vh;
+}
+/*around the web*/
+.backfoot .foot .second .headtwo
+{
+    margin-left:5% ;
+ }
+.backfoot .foot .second .icons{
+    width: 100%;
+    margin: 0% 2% 0% 2%;
+}
+
+/*facebook icon*/
+.foot .second .fa-facebook-f{
+border: 1px solid #fff;
+border-radius: 50%;
+padding: 5% 6.1% ;
+font-size: 1vw;
+margin-top: 9%;
+width: 2.2vw;
+}
+/*twitter icon*/
+.foot .second .fa-twitter{
+    
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5% 5%;
+    font-size: 1vw;
+    margin: 0% 2% 0% 2%;
+    margin-top: 9%;
+    width: 2.2vw;    
+}
+/*linkedin icon*/
+.foot .second .fa-linkedin-in{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5% 5.5%;
+    font-size: 1vw;
+    margin-top: 9%;
+    width: 2.2vw;
+}
+/*dribble icon*/
+.foot .second .fa-dribbble{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5% 4.7%;
+    font-size: 1vw;
+    margin: 0% 2% 0% 2%;
+    width: 2.2vw;
+    margin-top: 9%;
+}
+/*freelancer and paragraph of freelancer*/
+.backfoot .foot .third{
+    color: #ecf0f1;
+    float: left;
+    height: 12vh;
+    width: 16vw;
+    margin: 0% 2%;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size: 2vh;
+}
+/*freelancer*/
+.backfoot .foot .third .headthree{
+    margin-left: 19%;
+ }
+/*paragraph of freelancer*/
+.backfoot .foot .third .paraend{
+    margin-top: 8%;
+    width: 19vw;
+    text-align: center;
+}
+.paraend a{
+    color:#1abc9c ;
+}
+/*footer copy rights*/
+.right{
+    margin-top: 0%;   
+}
+/*paragraph copyrights*/
+.right .copy{
+    background-color: #1a252f;
+    height: 15vh;
+    color: #ecf0f1;
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+ 
+/*invalid form -error message will appear when user keep them empty*/
+.invalid{
+    color: #e74c3c;
+    font-size: 1vw;
+    float: left;
+} 
+/*red border fo erro message and exclamation mark*/
+.border1{
+    border-color: #e74c3c;
+    background-image: url(../img/1200px-Exclamation_Circle_Red.svg.png) ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1vw;
+
+}
+
+
+
+
+@media (max-width: 771px) {
+    .address {
+        height: 85%;
+        /* padding: 10px; */
+        }
+    h3{
+        margin-left: 5vw;
+    }
+    .student{
+        width: 80%;
+        text-align: left;
+        margin-right: 20%;
+        font-size: 3vh;
+        margin-top: 3vh;  
+    }
+    .menu{
+margin-top: 3.2vh;     
+   }
+    .items a{
+        margin-top: 10vh;  
+        font-size: 1.8vh;
+        text-align: center;
+        
+
+    }
+    .iti-img img{
+        width: 150%;
+        height: 197%;
+        margin-right: 12vw;
+        margin-top: 12vh;
+    }
+    .students{
+      padding-left: 4.5%;
+      padding-top: 28%;
+    }
+  .middle{
+    height: 70vh;
+  }
+  .project{
+    margin-top: 14vh;
+    font-size: 1.6vh;
+  }
+  .paragraph{
+   padding: 5%;
+   margin-top: 10vh;
+   text-size-adjust: 10vw;
+  }
+
+.about{
+    height: 50vh;
+}
